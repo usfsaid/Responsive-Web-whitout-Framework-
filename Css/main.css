@@ -1,0 +1,38 @@
+
+
+/* Standard media queries */
+
+/* Mobile devices & tablets
+@media  (max-width: 767px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* small devices */
+/* @media  (min-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+} */
+
+/* medium devices */
+/* @media  (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: lightyellow;
+    }
+} */
+
+/* large devices */
+/* @media  (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-color: lightpink;
+    }
+} */
+
+/* extra large devices */
+/* @media  (min-width: 1200px) {
+    body {
+        background-color: lightcoral;
+    }
+}  */
