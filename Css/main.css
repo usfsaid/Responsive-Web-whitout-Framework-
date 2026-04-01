@@ -118,6 +118,9 @@ body{
     line-height: 1.7;
     margin: 15px 0;
 }
+.responsive-img{
+    max-width: 100%;
+}
 /* End my Framework */ 
 
 /* ----------------------------------------------------------------------------------------- */
@@ -234,3 +237,31 @@ body{
     font-size: 22px;
 }
 /* End About Us */
+/* Start Image */
+@media(max-width:767px){
+    .our-works .image{
+        width: calc((100% )/1);
+        border: 10px solid white;
+    }
+}
+@media(min-width:768px){
+    .our-works .image{
+        width: calc((100% )/2);
+        border: 10px solid white;
+    }
+}
+@media(min-width:992px)and (max-width:1199px){
+    .our-works .image{
+        width: calc((100% )/3);
+        border: 10px solid white;
+
+    }
+}
+@media(min-width:1200px){
+    .our-works .image{
+        width: calc((100% )/4);
+        border: 10px solid white;
+    }
+}
+
+/* End Image */
