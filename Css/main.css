@@ -70,6 +70,12 @@
 /* End varibales */
 
 /* Start my Framework */ 
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .text-center{
     text-align: center;
 }
@@ -83,11 +89,11 @@
 .visible-lg{
     display: none;
 }
-.container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
 }
 /* End my Framework */ 
 /* Start Header */
@@ -124,7 +130,6 @@
     width: 48%;
     padding: 20px;
     color: #fff;
-    float: left;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -152,3 +157,25 @@
     }
 }
 /* End Header */
+
+/* Start Features */
+.feature{ 
+    padding: 50px 0;
+} 
+.feature .feat-box{
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 10px 20px ;
+}
+.feature .feat-box h2{
+    font-size: 30px;
+    color: var(--main-color);
+    margin-bottom: 15px;
+    
+}
+.feature .feat-box p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+}
+/* End Features */
