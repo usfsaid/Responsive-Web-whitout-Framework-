@@ -10,6 +10,10 @@
     .hidden-xs{
         display: none !important;
     }
+    .responsive-paragraph{
+        font-size: 18px !important;
+        line-height: .8;
+    }
 }
 
 /* small devices */
@@ -23,6 +27,7 @@
     .hidden-sm{
         display: none !important;
     }
+
 }
 
 /* medium devices */
@@ -36,6 +41,7 @@
     .hidden-md{
         display: none !important;
     }
+
 }
 
 /* large devices */
@@ -59,6 +65,10 @@
     --moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3000px;
+}
 /* End Global Rules */
 
 /* start varibales */
@@ -66,6 +76,7 @@
     --main-color: #3498db;
     --second-color: #2ecc71;
     --third-color: #e74c3c;
+    --main-padding: 30px 0;
 }
 /* End varibales */
 
@@ -99,6 +110,13 @@
     font-size: 2em;
     color: var(--main-color);
     padding: 20px;
+    font-size: 50px;
+}
+.responsive-paragraph{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+    margin: 15px 0;
 }
 /* End my Framework */ 
 
@@ -167,11 +185,8 @@
 
 /* Start Features */
 .feature{ 
-    padding: 50px 0;
+    padding: var(--main-padding);
 } 
-.feature .h1{
-    font-size: 50px;
-}
 .feature .feat-box{
     padding: 10px 20px;
     margin-bottom: 30px;
@@ -206,7 +221,16 @@
 }
 @media(min-width:992px){
     .feature .feat-box{
-        width: calc(100% / 3);
+        width: calc((100%) / 3);
     }
 }
 /* End Features */
+/* Start About Us */
+.about-us{
+    padding: var(--main-padding);
+    background-color: rgb(0 0 0 / 10%);
+}
+.about-us .responsive-paragraph{
+    font-size: 22px;
+}
+/* End About Us */
