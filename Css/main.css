@@ -36,3 +36,72 @@
         background-color: lightcoral;
     }
 }  */
+/* ---------------------------------------------------------------------------------- */
+/* Start Global Rules */
+*{
+    margin: 0;
+    padding: 0;
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* End Global Rules */
+
+/* start varibales */
+:root{
+    --main-color: #3498db;
+    --second-color: #2ecc71;
+    --third-color: #e74c3c;
+}
+/* End varibales */
+
+/* Start my Framework */ 
+.text-center{
+    text-align: center;
+}
+/* End my Framework */ 
+/* Start Header */
+.header{
+    background-image: url("../Images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    --webkit-background-size: cover;
+    --moz-background-size: cover;
+    --o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+
+}
+.header .overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(2 43 53 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header .overlay h1{
+    font-size: 60px;
+    font-weight: bold;
+    color : #fff;
+    margin-top: 100px;
+}
+.header .overlay .plan{
+    border: 2px solid #fff;
+    font-size: 25px;
+    width: 50%;
+    /* margin: 20px; */
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+@media (max-width:767px){
+    .header .overlay .plan{
+        float: none;
+        margin: 20px auto;
+        font-size: 20px;
+    }
+}
+/* End Header */
